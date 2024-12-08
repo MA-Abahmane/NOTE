@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+ 
+.control-bar h4:hover, .control-bar .btn:hover {
+    opacity: .9;
+    background-color: transparent;
+    border: transparent;
+    transform: rotateX('180deg');
+}
+
+
+.card {
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Applies a frosted glass blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for depth */
+    border-radius: 15px; /* Smooth rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow for elevation */
+    padding: 20px; /* Adds some inner spacing */
+  }
+
+
